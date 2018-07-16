@@ -1,0 +1,993 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 11500000, guid: ba86d725d8c85074c961a8d211622af0, type: 3}
+  m_Name: AssetBundleInfoTableData
+  m_EditorClassIdentifier: 
+  BuildPlatform: 1
+  Config:
+    IsRootNode: 1
+    Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources
+    IsMergerAssetBundle: 0
+    IsSelectAssetBundle: 1
+    CheckMode: 0
+    Chiles:
+    - IsRootNode: 0
+      Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaCommonModel
+      IsMergerAssetBundle: 0
+      IsSelectAssetBundle: 1
+      CheckMode: 0
+      Chiles:
+      - IsRootNode: 0
+        Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaCommonModel/font
+        IsMergerAssetBundle: 1
+        IsSelectAssetBundle: 1
+        CheckMode: 0
+        Chiles: []
+      - IsRootNode: 0
+        Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaCommonModel/Image
+        IsMergerAssetBundle: 1
+        IsSelectAssetBundle: 1
+        CheckMode: 0
+        Chiles:
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaCommonModel/Image/gamebg.jpg
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaCommonModel/Image/ty_btnClose.png
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaCommonModel/Image/ty_btn_h1.png
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaCommonModel/Image/ty_btn_h2.png
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaCommonModel/Image/ty_btn_h3.png
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaCommonModel/Image/ty_btn_h4.png
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaCommonModel/Image/ty_srk.png
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaCommonModel/Image/ty_tc2.png
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaCommonModel/Image/ty_tc3.png
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaCommonModel/Image/zhdl_jdt_di.png
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaCommonModel/Image/zhdl_jdt_yanse.png
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+    - IsRootNode: 0
+      Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel
+      IsMergerAssetBundle: 0
+      IsSelectAssetBundle: 1
+      CheckMode: 0
+      Chiles:
+      - IsRootNode: 0
+        Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Lua
+        IsMergerAssetBundle: 1
+        IsSelectAssetBundle: 1
+        CheckMode: 0
+        Chiles:
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Lua/HomeModel.lua
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Lua/HomeViewComp.lua
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Lua/LoginViewComp.lua
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Lua/Main.lua
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+      - IsRootNode: 0
+        Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab
+        IsMergerAssetBundle: 1
+        IsSelectAssetBundle: 1
+        CheckMode: 0
+        Chiles:
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles:
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/Aniamtors
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles:
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/Aniamtors/shop_animation.anim
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/Aniamtors/shop_animation.controller
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/Effect_img
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles:
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/Effect_img/ef_glow_guangdian_0057.png
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/Effect_img/ef_glow_guangdian_0058.png
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/Effect_img/UI_xingxing01_c.png
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/Effect_img/yxdt_biao_sd2.png
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/Effect_img/yxdt_biao_sd3.png
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/Effect_Mat
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles:
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/Effect_Mat/ef_glow_guangdian_0058.mat
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/Effect_Mat/UI_xingxing01_c.mat
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/Effect_Mat/yxdt_biao_sd2.mat
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/gamebutt.png
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/Gril
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles:
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/Gril/nv01.atlas.txt
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/Gril/nv01.json
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/Gril/nv01.png
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/Gril/nv01_Atlas.asset
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/Gril/nv01_Material.mat
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/Gril/nv01_SkeletonData.asset
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/yxdt_biao_sd.png
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView/yxdt_icon_sd.png
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/HomeView.prefab
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/LoadingView
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles:
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/LoadingView/zhdl_logo.png
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/LoadingView.prefab
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/LoginView
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles:
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/LoginView/btn_zhdl.png
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/LoginView/zi_zhdl.png
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaHomeModel/Prefab/LoginView.prefab
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+    - IsRootNode: 0
+      Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel
+      IsMergerAssetBundle: 0
+      IsSelectAssetBundle: 1
+      CheckMode: 0
+      Chiles:
+      - IsRootNode: 0
+        Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua
+        IsMergerAssetBundle: 1
+        IsSelectAssetBundle: 1
+        CheckMode: 0
+        Chiles:
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/Config
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles:
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/Config/AppConifg.lua
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/LuaFaamework
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles:
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/LuaFaamework/BaseModel.lua
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/LuaFaamework/BaseModelComp.lua
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/LuaFaamework/BaseModelViewComp.lua
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/LuaFaamework/Class.lua
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/LuaFaamework/LuaGameObject.lua
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/Main.lua
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles:
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/cjson
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles:
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/cjson/util.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/event.lua
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/jit
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles:
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/jit/bc.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/jit/bcsave.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/jit/dis_arm.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/jit/dis_arm64.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/jit/dis_arm64be.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/jit/dis_mips.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/jit/dis_mips64.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/jit/dis_mips64el.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/jit/dis_mipsel.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/jit/dis_ppc.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/jit/dis_x64.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/jit/dis_x86.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/jit/dump.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/jit/p.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/jit/v.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/jit/vmdef.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/jit/zone.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/list.lua
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/lpeg
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles:
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/lpeg/re.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/ltn12.lua
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/mime.lua
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/misc
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles:
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/misc/functions.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/misc/misc.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/misc/strict.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/misc/utf8.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/protobuf
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles:
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/protobuf/containers.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/protobuf/decoder.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/protobuf/descriptor.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/protobuf/encoder.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/protobuf/listener.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/protobuf/protobuf.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/protobuf/text_format.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/protobuf/type_checkers.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/protobuf/wire_format.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/slot.lua
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/socket
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles:
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/socket/ftp.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/socket/headers.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/socket/http.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/socket/mbox.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/socket/smtp.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/socket/tp.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/socket/url.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/socket.lua
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/System
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles:
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/System/coroutine.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/System/Reflection
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles:
+              - IsRootNode: 0
+                Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/System/Reflection/BindingFlags.lua
+                IsMergerAssetBundle: 1
+                IsSelectAssetBundle: 0
+                CheckMode: 0
+                Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/System/Timer.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/System/ValueType.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/tolua.lua
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/typeof.lua
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/UnityEngine
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles:
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/UnityEngine/Bounds.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/UnityEngine/Color.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/UnityEngine/LayerMask.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/UnityEngine/Mathf.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/UnityEngine/Plane.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/UnityEngine/Quaternion.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/UnityEngine/Ray.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/UnityEngine/RaycastHit.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/UnityEngine/Time.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/UnityEngine/Touch.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/UnityEngine/Vector2.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/UnityEngine/Vector3.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+            - IsRootNode: 0
+              Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/ToLua/UnityEngine/Vector4.lua
+              IsMergerAssetBundle: 1
+              IsSelectAssetBundle: 0
+              CheckMode: 0
+              Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/Tools
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles:
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/Tools/LuaMath.lua
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles: []
+          - IsRootNode: 0
+            Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaManagerModel/Lua/Tools/LuaString.lua
+            IsMergerAssetBundle: 1
+            IsSelectAssetBundle: 0
+            CheckMode: 0
+            Chiles: []
+    - IsRootNode: 0
+      Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaServiceModel
+      IsMergerAssetBundle: 0
+      IsSelectAssetBundle: 1
+      CheckMode: 0
+      Chiles:
+      - IsRootNode: 0
+        Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaServiceModel/Lua
+        IsMergerAssetBundle: 1
+        IsSelectAssetBundle: 1
+        CheckMode: 0
+        Chiles:
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaServiceModel/Lua/IServiceBase.lua
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaServiceModel/Lua/Main.lua
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaServiceModel/Lua/ServiceManagerComp.lua
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaServiceModel/Lua/ServiceModel.lua
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaServiceModel/Lua/ServiceTCPComp.lua
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+    - IsRootNode: 0
+      Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaSwitchSceneModel
+      IsMergerAssetBundle: 0
+      IsSelectAssetBundle: 1
+      CheckMode: 0
+      Chiles:
+      - IsRootNode: 0
+        Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaSwitchSceneModel/Lua
+        IsMergerAssetBundle: 1
+        IsSelectAssetBundle: 1
+        CheckMode: 0
+        Chiles:
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaSwitchSceneModel/Lua/ISceneLoadCompBase.lua
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaSwitchSceneModel/Lua/Main.lua
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaSwitchSceneModel/Lua/SceneChedulerComp.lua
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaSwitchSceneModel/Lua/SwitchSceneModel.lua
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaSwitchSceneModel/Lua/SwitchSceneViewComp.lua
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+      - IsRootNode: 0
+        Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaSwitchSceneModel/Prefab
+        IsMergerAssetBundle: 1
+        IsSelectAssetBundle: 1
+        CheckMode: 0
+        Chiles:
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaSwitchSceneModel/Prefab/loadbg.jpg
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaSwitchSceneModel/Prefab/SwitchSceneView.prefab
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+    - IsRootNode: 0
+      Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaViewManagerModel
+      IsMergerAssetBundle: 0
+      IsSelectAssetBundle: 1
+      CheckMode: 0
+      Chiles:
+      - IsRootNode: 0
+        Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaViewManagerModel/Lua
+        IsMergerAssetBundle: 1
+        IsSelectAssetBundle: 1
+        CheckMode: 0
+        Chiles:
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaViewManagerModel/Lua/Main.lua
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
+        - IsRootNode: 0
+          Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources/LuaViewManagerModel/Lua/ViewManagerModel.lua
+          IsMergerAssetBundle: 1
+          IsSelectAssetBundle: 0
+          CheckMode: 0
+          Chiles: []
