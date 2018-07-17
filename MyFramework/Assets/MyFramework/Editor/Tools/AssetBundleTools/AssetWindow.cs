@@ -11,10 +11,20 @@ namespace MyFramework.Tools
         [MenuItem("MyFrameworkTools/AssetBundle/手动打包")]
         static void GameResBuilderTools()
         {
-
+            AssetBundleInfoTableData BuildConfig = AssetDatabase.LoadAssetAtPath("Assets/AssetBundleInfoTableData.asset", typeof(AssetBundleInfoTableData)) as AssetBundleInfoTableData; ;
             AssetWindow newWindow = GetWindowWithRect<AssetWindow>(new Rect(100, 100, 600, 400), false, "资源打包界面");
-            newWindow.SavePath = Application.streamingAssetsPath.Substring(AppPathConfig.PlatformRoot.Length);
-            newWindow.ResPath = "/Resources";
+            if (BuildConfig != null)
+            {
+                newWindow.SavePath = BuildConfig.SavePath;
+                newWindow.ResPath = BuildConfig.ResPath;
+                newWindow.BuildPlatform = BuildConfig.BuildPlatform;
+                newWindow.Bundlefiletree = SetBuildInfo(null, BuildConfig.Config);
+            }
+            else
+            {
+                newWindow.SavePath = Application.streamingAssetsPath.Substring(AppPathConfig.PlatformRoot.Length);
+                newWindow.ResPath = "/Resources";
+            }
         }
 
         void OnGUI()
@@ -294,6 +304,8 @@ namespace MyFramework.Tools
             AssetBundleInfoData BuildConfig = SetBuildConfig(Bundlefiletree);
             AssetBundleInfoTableData Data = new AssetBundleInfoTableData();
             Data.BuildPlatform = BuildPlatform;
+            Data.SavePath = SavePath;
+            Data.ResPath = ResPath;
             Data.Config = BuildConfig;
             AssetDatabase.CreateAsset(Data, "Assets/AssetBundleInfoTableData.asset");
         }
@@ -313,6 +325,19 @@ namespace MyFramework.Tools
             }
             return Config;
         }
-#endregion
+
+        private static AssetBundleInfo SetBuildInfo(AssetBundleInfo Parent, AssetBundleInfoData Config)
+        {
+            AssetBundleInfo BundleInfo = new AssetBundleInfo(Config.Path, Parent, Config.IsRootNode);
+            BundleInfo.IsMergerAssetBundle = Config.IsMergerAssetBundle;
+            BundleInfo.IsSelectAssetBundle = Config.IsSelectAssetBundle;
+            BundleInfo.CheckMode = Config.CheckMode;
+            for (int i = 0; i < Config.Chiles.Count; i++)
+            {
+                BundleInfo.Childs.Add(SetBuildInfo(BundleInfo, Config.Chiles[i]));
+            }
+            return BundleInfo;
+        }
+        #endregion
     }
 }

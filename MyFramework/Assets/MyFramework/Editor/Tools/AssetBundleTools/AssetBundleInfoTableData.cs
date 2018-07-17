@@ -17,6 +17,8 @@ namespace MyFramework
 
     public class AssetBundleInfoTableData : ScriptableObject
     {
+        public string ResPath;
+        public string SavePath;
         public AppPlatform BuildPlatform;
         public AssetBundleInfoData Config;
     }

@@ -11,7 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba86d725d8c85074c961a8d211622af0, type: 3}
   m_Name: AssetBundleInfoTableData
   m_EditorClassIdentifier: 
-  BuildPlatform: 1
+  ResPath: /Resources
+  SavePath: /Assets/StreamingAssets
+  BuildPlatform: 0
   Config:
     IsRootNode: 1
     Path: D:/liwei1dao/WorkProject/Unity3dProject/MyFramework4.0/MyFramework/Assets/Resources
