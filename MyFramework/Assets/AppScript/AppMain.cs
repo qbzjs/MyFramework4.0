@@ -18,10 +18,15 @@ public class AppMain : PrefabSingleton<AppMain>
         //基础模块
         //Manager_ManagerModel.Instance.StartModel<TimerModel>();
         //Manager_ManagerModel.Instance.StartModel<CoroutineModel>();
-        Manager_ManagerModel.Instance.StartModel<LuaManagerModel>();
+        //Manager_ManagerModel.Instance.StartModel<LuaManagerModel>();
         //Manager_ManagerModel.Instance.StartModelForName("MyFramework", "LuaManagerModel");
         //Manager_ManagerModel.Instance.StartModel<WebServiceModel>();
         //Manager_ManagerModel.Instance.StartModel<DownloadModel>();
         //Manager_ManagerModel.Instance.StartModelForName("MyFramework", "LuaServiceModel", null,"127.0.0.1",1204);
+
+        Manager_ManagerModel.Instance.StartModel<CoroutineModel>();
+        Manager_ManagerModel.Instance.StartModel<ViewManagerModel>(null,new Vector2(1920,1080),1.0f);
+        Manager_ManagerModel.Instance.StartModel<SceneModel>();
+        Manager_ManagerModel.Instance.StartModel<ActorTestModel>();
     }
 }

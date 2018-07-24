@@ -17,19 +17,18 @@ namespace MyFramework
 
     }
 
-    [SerializeField]
-    public class ConfigDataBase<K>
-    {
-        public K Id;
-    }
-
     public class ConfigDataBase : ScriptableObject, ConfigData
     {
 
     }
 
+    [SerializeField]
+    public class ConfigDataBase<K> : ConfigData
+    {
+        public K Id;
+    }
 
-    public class ConfigTableDataBase<D> : ScriptableObject,ListDataTable
+    public class ConfigTableDataBase<D> : ScriptableObject,ListDataTable where D : ConfigData
     {
         public List<D> Datas = new List<D>();
         public void AddData(D data)

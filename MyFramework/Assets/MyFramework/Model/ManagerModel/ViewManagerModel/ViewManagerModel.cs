@@ -85,7 +85,7 @@ namespace MyFramework
             _cm1.farClipPlane = 100;
             _cm1.orthographicSize = 20;
             Canvas _ca1 = mNormalUIRoot.GetComponent<Canvas>();
-            _ca1.renderMode = RenderMode.ScreenSpaceOverlay;
+            _ca1.renderMode = RenderMode.ScreenSpaceCamera;
             _ca1.worldCamera = _cm1;
             _ca1.sortingOrder = 1;
             UnityEngine.UI.CanvasScaler _cs1 = mNormalUIRoot.GetComponent<UnityEngine.UI.CanvasScaler>();
@@ -103,7 +103,7 @@ namespace MyFramework
             _cm2.farClipPlane = 100;
             _cm2.orthographicSize = 20;
             Canvas _ca2 = mHightUIRoot.GetComponent<Canvas>();
-            _ca2.renderMode = RenderMode.ScreenSpaceOverlay;
+            _ca2.renderMode = RenderMode.ScreenSpaceCamera;
             _ca2.worldCamera = _cm2;
             _ca2.sortingOrder = 2;
             UnityEngine.UI.CanvasScaler _cs2 = mHightUIRoot.GetComponent<UnityEngine.UI.CanvasScaler>();
@@ -113,26 +113,6 @@ namespace MyFramework
             _cs2.matchWidthOrHeight = mMatch;
 
             GameObject EventSystem = mUIRoot.CreateChild("EventSystem", typeof(UnityEngine.EventSystems.EventSystem), typeof(UnityEngine.EventSystems.StandaloneInputModule));
-        }
-
-        /// <summary>
-        /// 适配UI界面
-        /// </summary>
-        /// <param name="View"></param>
-        public void AdapterView(RectTransform View)
-        {
-            if (mMatch == 0)
-            {
-                View.sizeDelta = new Vector2(1080, 1080 * (Screen.height * 1.0f / Screen.width));
-            }
-            else if (mMatch == 1)
-            {
-                View.sizeDelta = new Vector2(1080 * (Screen.height * 1.0f / Screen.width), 1080);
-            }
-            else
-            {
-                View.sizeDelta = new Vector2(1080,1920);
-            }
         }
     }
 }
